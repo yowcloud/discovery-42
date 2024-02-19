@@ -5,6 +5,7 @@
 ## Shell
 
 En el directorio `shell`, encontrarás mis soluciones a varios ejercicios y proyectos de scripting de Shell asignados durante la parte de Shell de la Discovery Piscine. Cada proyecto o ejercicio está contenido en su propio directorio con un nombre descriptivo.
+Es importante tener en cuenta que algunos programas de la parte de Shell deben ejecutarse con `sh ./nombre_programa.sh` para garantizar la compatibilidad y ejecución correcta.
 
 ## Web
 
