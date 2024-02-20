@@ -7,5 +7,5 @@ fi
 
 for arg in $@
 do
-    mkdir ex$arg
+    mkdir -p ex$arg
 done
