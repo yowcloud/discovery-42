@@ -1,0 +1,22 @@
+body, html
+{
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+table  
+{
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr, td
+{
+	text-align: center;
+	font-size: 34px;
+	padding: 8px;
+
+}
+

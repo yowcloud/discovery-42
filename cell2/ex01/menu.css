@@ -1,0 +1,64 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos para el botón de hamburguesa */
+.button {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+/* Estilos para el menú desplegable */
+.menu-hamb {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu-hamb ul {
+    padding: 20px 0;
+}
+
+.menu-hamb ul li {
+    padding: 10px 0;
+}
+
+.menu-hamb ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/* Mostrar el menú cuando se hace clic en el botón */
+.button:target + #menu {
+    display: block;
+}
+
+/* Mostrar el menú cuando se hace clic en el botón */
+#toggle:checked + .menu-hamb {
+    display: block;
+}
